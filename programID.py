@@ -3,7 +3,9 @@ Drugs = ['Weed', 'Cocain', 'Lsd', 'Ecstasy']
 name = str(input("Hello, Welcome!! Please, insert your name to keep browsering: "))
 while name is '':
     print("Name cannot be null.")
-    break
+    while True:
+        name = str(input("What's your name? "))
+        break
 while name is not '':
     print("Hello ", name)
     try:
