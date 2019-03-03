@@ -1,3 +1,5 @@
+import os
+os.system("pause")
 arq = open('programID.txt', 'w')
 Drugs = ['Weed', 'Cocain', 'Lsd', 'Ecstasy']
 name = str(input("Hello, Welcome!! Please, insert your name to keep browsering: "))
